@@ -35,17 +35,20 @@ class AppIcon extends HTMLElement {
               --size: 5rem;
               margin: 1rem 0;
               display: block;
+              transition: ease-in-out 200ms;
+              filter: saturate(0.4);
+              transform: scale(1);
             }
+
             img {
               width: var(--size);
             }
-            a {
-              filter: saturate(0.4);
-              transition: ease-in-out 200ms;
-            }
 
-            a:hover {
+            
+            :host(:hover) {
+
               filter: saturate(1);
+              transform: scale(1.05);
             }
         </style>
           <a href="#">
