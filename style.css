@@ -1,0 +1,64 @@
+html, body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+
+    --background-col: rgba(35,38,41,1);
+    --shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+
+body {
+    background: #202330;
+    color: #FAE8B6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1600px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 80%;
+    }
+}
+
+label {
+    font-size: 1.6rem;
+    margin: 1rem 0 0.5rem;
+}
+
+homepage-clock {
+    margin: 0 auto;
+    width: 100%;
+    --background: var(--background-col);
+    font-size: 1.3rem;
+}
+
+homepage-music {
+    margin: 0 auto;
+    width: 100%;
+    --background: var(--background-col);
+    --text: #FAE8B6;
+    font-size: 1.3rem;
+}
+
+.icon-row {
+    display: flex;
+}
+
+app-icon {
+    margin: 1rem;
+}
+
+app-icon:first-child {
+    margin: 1rem 1rem 1rem 0;
+}

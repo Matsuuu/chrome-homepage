@@ -1,0 +1,24 @@
+{
+  "playlists": [
+    {
+      "name": "Can't go wrong",
+      "url": "https://www.youtube.com/watch?v=g9hwjQBQFIo&list=RDEM6mP505XPi7kWwygTUHGIJQ&start_radio=1",
+      "thumbnail": "https://www.weareresonate.com/wp-content/uploads/2016/09/nujabesms.jpg"
+    },
+    {
+      "name": "Feeling Vibrant",
+      "url": "https://www.youtube.com/watch?v=v8B5AOljhsY&list=RDEM9bNTsrfHo05P17WJ2aTnCQ&start_radio=1",
+      "thumbnail": "https://www.discotech.me/wp-content/uploads/2020/04/san-holo.jpg"
+    },
+    {
+      "name": "Japanese House",
+      "url": "https://www.youtube.com/watch?v=LeLri3wZtEk&list=RDEMyGGMLvT3Svd-GJNZFzhCQg&start_radio=1",
+      "thumbnail": "https://i.ytimg.com/vi/WYp9Eo9T3BA/maxresdefault.jpg"
+    },
+    {
+      "name": "Drake",
+      "url": "https://www.youtube.com/watch?v=uxpDa-c-4Mc&list=RDEMEPsGcPqqzpBxP-gtt4OYKg&start_radio=1",
+      "thumbnail": "https://i1.wp.com/thelumberjack.org/wp-content/uploads/2020/05/Dark-Lanes-Demo-Tapes.jpg?fit=1302%2C1302&ssl=1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>New Tab</title>
+        <meta name="author" content="" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <homepage-clock></homepage-clock>
+            <label for="mdn-search">Search MDN Web Docs</label>
+            <mdn-search></mdn-search>
+            <div class="icon-row">
+                <app-icon icon="gmail" url="https://mail.google.com/mail/u/0/#inbox"></app-icon>
+                <app-icon icon="gmail" url="https://mail.google.com/mail/u/1/#inbox"></app-icon>
+            </div>
+            <homepage-music></homepage-music>
+        </div>
+
+        <script type="module" src="./components/homepage-music/src/homepage-music.js"></script>
+        <script type="module" src="./components/homepage-clock/src/homepage-clock.js"></script>
+        <script type="module" src="./components/mdn-search/src/mdn-search.js"></script>
+        <script type="module" src="./components/icon/icon.js"></script>
+    </body>
+</html>
