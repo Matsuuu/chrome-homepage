@@ -38,15 +38,22 @@ class AppIcon extends HTMLElement {
               transition: ease-in-out 200ms;
               filter: saturate(0.4);
               transform: scale(1);
+              outline: none;
             }
 
             img {
               width: var(--size);
+              outline: none;
+            }
+
+            a {  
+              outline: none;
             }
 
             
-            :host(:hover) {
-
+            :host(:hover),
+            :host(:focus),
+            :host(:focus-within){
               filter: saturate(1);
               transform: scale(1.05);
             }

@@ -93,7 +93,9 @@ export default class HomepageMusic extends HTMLElement {
                     box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
                 }
 
-                a:hover {
+                a:hover,
+                a:focus,
+                a:focus-within {
                     filter: saturate(1);
                     transform: scale(1.05);
                 }
