@@ -1,0 +1,10 @@
+{
+  "links": [
+    { "icon": "gmail", "url": "https://mail.google.com/mail/u/0/#inbox" },
+    { "icon": "gmail", "url": "https://mail.google.com/mail/u/1/#inbox" },
+    { "icon": "twitter", "url": "https://twitter.com/home" },
+    { "icon": "github", "url": "https://github.com/Matsuuu?tab=repositories" },
+    { "icon": "youtube", "url": "https://www.youtube.com/" },
+    { "icon": "twitch", "url": "https://www.twitch.tv/directory/following" }
+  ]
+}

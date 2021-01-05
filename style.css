@@ -51,15 +51,3 @@ homepage-music {
     --text: #FAE8B6;
     font-size: 1.3rem;
 }
-
-.icon-row {
-    display: flex;
-}
-
-app-icon {
-    margin: 1rem;
-}
-
-app-icon:first-child {
-    margin: 1rem 1rem 1rem 0;
-}
