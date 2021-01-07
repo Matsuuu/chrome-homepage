@@ -49,7 +49,6 @@ class AppIcon extends HTMLElement {
             a {  
               outline: none;
             }
-
             
             :host(:hover),
             :host(:focus),

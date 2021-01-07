@@ -22,7 +22,7 @@ export default class HomepageClock extends HTMLElement {
 
         let dateString = "It's ";
         dateString += HomepageClock.dayNames[date.getDay()];
-        dateString += `, ${date.getDate()} of `;
+        dateString += `, ${date.getDate()}${HomepageClock.getDateEnding(date.getDay())} of `;
         dateString += HomepageClock.monthNames[date.getMonth()];
         dateString += `, ${date.getHours()}:${date.getMinutes()}`;
         content.querySelector('#dayname').innerText = dateString;
@@ -108,6 +108,20 @@ export default class HomepageClock extends HTMLElement {
             'November',
             'December',
         ];
+    }
+
+    static getDateEnding(date) {
+        const dateString = date.toString();
+        const lastNum = dateString.substring(-1);
+        switch(parseInt(lastNum)) {
+            case 1:
+                return "st";
+            case 2:
+                return "nd";
+            case 3: 
+                return "rd";
+        }
+        return "th";
     }
 }
 

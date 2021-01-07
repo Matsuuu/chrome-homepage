@@ -30,6 +30,7 @@ export default class LinkIcons extends HTMLElement {
         const icon = document.createElement('app-icon');
         icon.setAttribute('icon', link.icon);
         icon.setAttribute('url', link.url);
+        icon.dataset.title = link.title;
         return icon;
     }
 
@@ -60,8 +61,9 @@ export default class LinkIcons extends HTMLElement {
                 flex-wrap: wrap;
             }
 
-            app-icon {
-                margin: 1rem 2rem 1rem 0;
+            .icon-row * {
+                flex: 1 1 16.5%;
+                text-align: center;
             }
             </style>
         `;
